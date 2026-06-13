@@ -1,0 +1,22 @@
+FrameWidgetClass {
+ {
+  OverlayWidgetClass "{5DB8B556919FE5F2}" {
+   Prefab "{5DB8B556919FE5F2}"
+   {
+    VerticalLayoutWidgetClass "{5DB8B556919FE5EE}" {
+     Prefab "{5DB8B556919FE5EE}"
+     {
+      ImageWidgetClass "{5DB8B556919FE5EF}" {
+       Prefab "{5DB8B556919FE5EF}"
+       Slot LayoutSlot "{58CE98844C814511}" {
+        Padding 48 20 0 20
+       }
+       Texture "{E867DD313943F0AB}UI/Textures/PauseMenu/JTF 6-26.edds"
+       Size 256 128
+      }
+     }
+    }
+   }
+  }
+ }
+}

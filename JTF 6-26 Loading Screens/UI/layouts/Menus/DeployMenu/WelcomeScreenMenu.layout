@@ -1,0 +1,27 @@
+FrameWidgetClass {
+ {
+  SizeLayoutWidgetClass "{5D647208164584F6}" {
+   Prefab "{5D647208164584F6}"
+   {
+    OverlayWidgetClass "{5D647208164584F5}" {
+     Prefab "{5D647208164584F5}"
+     {
+      BlurWidgetClass "{64B47EA465507D98}" {
+       Prefab "{64B47EA465507D98}"
+       Name "Blur0"
+       "Is Enabled" 0
+       "Is Visible" 0
+       IsPixelPerfect 0
+      }
+      ImageWidgetClass "{5D647208164584F8}" {
+       Prefab "{5D647208164584F8}"
+       Color 0.0667 0.0667 0.0667 1
+       Texture "{9E42809AAFCFF179}UI/Textures/DeployMenu/deploymentBG.edds"
+       Size 1024 576
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,40 @@
+FrameWidgetClass {
+ {
+  OverlayWidgetClass "{5C7C8A10E08F976D}" {
+   Prefab "{5C7C8A10E08F976D}"
+   {
+    FrameWidgetClass "{5CDEC184DA4DE536}" {
+     Prefab "{5CDEC184DA4DE536}"
+     {
+      FrameWidgetClass "{5C7C8A10D09D8C63}" {
+       Prefab "{5C7C8A10D09D8C63}"
+       {
+        OverlayWidgetClass "{5C927D47FF4135F9}" {
+         Prefab "{5C927D47FF4135F9}"
+         {
+          OverlayWidgetClass "{69840B47CE75C274}" {
+           Name "JTF626-Layout"
+           Slot OverlayWidgetSlot "{69840B47CE75C5BF}" {
+            VerticalAlign 2
+           }
+           {
+            ImageWidgetClass "{69840B47E017D198}" {
+             Name "JTF626"
+             Slot OverlayWidgetSlot "{69840B471027BAA9}" {
+             }
+             Opacity 0.5
+             Texture "{E867DD313943F0AB}UI/Textures/PauseMenu/JTF 6-26.edds"
+             Size 256 128
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,283 @@
+FrameWidgetClass {
+ {
+  OverlayWidgetClass "{5DFF03E4AD9D1E88}" {
+   Prefab "{5DFF03E4AD9D1E88}"
+   "Is Enabled" 0
+   "Is Visible" 0
+   IsPixelPerfect 0
+  }
+  FrameWidgetClass "{5E04A017BD489B2A}" {
+   Prefab "{5E04A017BD489B2A}"
+   "Is Enabled" 0
+   "Is Visible" 0
+   IsPixelPerfect 0
+  }
+  OverlayWidgetClass "{5E048703DA7D2941}" {
+   Prefab "{5E048703DA7D2941}"
+   "Is Enabled" 0
+   IsPixelPerfect 0
+  }
+  ImageWidgetClass "{5DFF03E4AD9D1ECB}" {
+   Prefab "{5DFF03E4AD9D1ECB}"
+   "Is Enabled" 0
+   IsPixelPerfect 0
+  }
+  OverlayWidgetClass "{698428622C509002}" : "{A5D822A6CBEB8003}UI/layouts/Menus/Common/MenuBackground-NoScripts.layout" {
+   Name "m_wBackground0"
+   Slot FrameWidgetSlot "{552C9A0A8526D2AD}" {
+   }
+   {
+    ScaleWidgetClass "{5CFCF5E894AE6629}" {
+     Prefab "{5CFCF5E894AE6629}"
+     {
+      ImageWidgetClass "{5CFCF5E894AE6628}" {
+       Prefab "{5CFCF5E894AE6628}"
+       Texture "{0A3B3E3D7C28FDF5}UI/Textures/MainMenu/screenBG.edds"
+      }
+     }
+    }
+    HorizontalLayoutWidgetClass "{5CFCF5E894AE6623}" {
+     Prefab "{5CFCF5E894AE6623}"
+     Slot OverlayWidgetSlot "{552CC287E4D97748}" {
+     }
+    }
+   }
+  }
+  FrameWidgetClass "{698428622C509004}" {
+   Name "FullHDFrame0"
+   Slot FrameWidgetSlot "{5E04A017BD489B79}" {
+    Anchor 9.7 0.2 9.7 0.5
+    PositionX -17664
+    OffsetLeft -17664
+    PositionY 324
+    OffsetTop 324
+    SizeX 1920
+    OffsetRight 15744
+    SizeY 756
+    OffsetBottom -1080
+    Alignment 0.5 0.5
+   }
+   {
+    OverlayWidgetClass "{698428622C509FAE}" {
+     Name "m_wContent"
+     Slot FrameWidgetSlot "{58D0CBF2E62A3844}" {
+      Anchor 0.05 0.048 0.95 0.95
+      PositionX -35
+      OffsetLeft -35
+      PositionY -35
+      OffsetTop -35
+      SizeX 113
+      OffsetRight -78
+      SizeY 70
+      OffsetBottom -35
+     }
+     {
+      HorizontalLayoutWidgetClass "{698428622C50717A}" {
+       Name "m_wSpinnerGroup"
+       Slot OverlayWidgetSlot "{5DFE96FF89AEB658}" {
+        HorizontalAlign 2
+        VerticalAlign 0
+       }
+       {
+        FrameWidgetClass "{698428622C507179}" : "{C54928B94095E403}UI/layouts/Menus/LoadingScreen/LoadingSpinner.layout" {
+         Name "m_wSpinner"
+         Slot LayoutSlot "{5D0C895E97B7455C}" {
+          HorizontalAlign 1
+          Padding 24 0 0 0
+         }
+        }
+       }
+      }
+      TextWidgetClass "{698428622C507178}" {
+       Name "jtf_welcome"
+       Slot OverlayWidgetSlot "{698238D316026D97}" {
+        HorizontalAlign 3
+        VerticalAlign 0
+        Padding 80 12.8 780 0
+       }
+       Color 0.7333 0.7333 0.7333 1
+       Text "Joint Task Force 6-26"
+       "Font Size" 97
+       "Min Font Size" 44
+       "Horizontal Alignment" Center
+       FontProperties FontProperties "{698238D4F66E76A8}" {
+        Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+        Bold 1
+        ShadowSize 2
+        ShadowOffset 3.5 3.5
+       }
+      }
+      OverlayWidgetClass "{698428622C507177}" {
+       Name "m_wProgressGroup"
+       Slot OverlayWidgetSlot "{5DFE96CECA38C878}" {
+        HorizontalAlign 3
+        VerticalAlign 2
+        Padding 120 0 825 68
+       }
+       {
+        ImageWidgetClass "{698428622C50167F}" {
+         Name "LoadingBackground"
+         Slot OverlayWidgetSlot "{552A7A0DD1B1F84A}" {
+          HorizontalAlign 3
+         }
+         Color 1 1 1 0.098
+         Size 4 4
+        }
+        HorizontalLayoutWidgetClass "{698428622C50167E}" {
+         Name "HorizontalLayout0"
+         Slot OverlayWidgetSlot "{552A7A0D12CDA1B4}" {
+          HorizontalAlign 3
+          VerticalAlign 3
+         }
+         {
+          ImageWidgetClass "{698428622C51EE83}" {
+           Name "m_wProgressBarFill"
+           Slot LayoutSlot "{552A7A0D12C36381}" {
+            SizeMode Fill
+            FillWeight 0
+           }
+           Color 0.761 0.392 0.078 1
+           Size 4 4
+           Mask "{A1433FBA32E51BBC}UI/Textures/ProgressMasks/ProgressMaskHorizontal_1024x1.edds"
+          }
+          FrameWidgetClass "{698428622C51A461}" {
+           Name "m_wProgressBarSpace"
+           Slot LayoutSlot "{552A7A0D0F341071}" {
+            SizeMode Fill
+           }
+          }
+         }
+        }
+       }
+      }
+      VerticalLayoutWidgetClass "{698428622C51A463}" {
+       Name "VerticalLayout0"
+       Slot OverlayWidgetSlot "{6982524AEFE50672}" {
+        HorizontalAlign 2
+        VerticalAlign 3
+        Padding 1225 180 25 180
+       }
+       {
+        RichTextWidgetClass "{698428622C516AEE}" {
+         Name "briefHeading"
+         Slot LayoutSlot "{69842862B925EFD7}" {
+          Padding 0 0 0 30
+         }
+         Text "Mission Briefing "
+         "Font Size" 48
+         "Min Font Size" 44
+         FontProperties FontProperties "{6982524BA2F9DFF0}" {
+          Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+         }
+        }
+        RichTextWidgetClass "{698428622C512AB9}" : "{E256BCCAE8821432}UI/layouts/WidgetLibrary/RichTextWidgets/RichText_Body.layout" {
+         Name "brief0"
+         Slot LayoutSlot "{69842862B925EFF6}" {
+          HorizontalAlign 3
+         }
+         Clipping Inherit
+         Text "You are entering an active operations environment where discipline, coordination, and adaptability determine survival. Our task force operates across contested territory with one objective: establish control, support allied forces, and eliminate hostile threats before they gain momentum."
+         "Min Font Size" 16
+         FontProperties FontProperties "{546AF489DFD25402}" {
+         }
+         "Line Spacing" 30
+        }
+        RichTextWidgetClass "{698428622C512ABE}" : "{E256BCCAE8821432}UI/layouts/WidgetLibrary/RichTextWidgets/RichText_Body.layout" {
+         Name "brief1"
+         Slot LayoutSlot "{69842862B925EF16}" {
+          HorizontalAlign 3
+          Padding 0 20 0 0
+         }
+         Clipping Inherit
+         Text "Expect dynamic engagements, evolving objectives, heavy resistance, and limited second chances. Every patrol, convoy, airlift, resupply, and firefight contributes to the larger campaign."
+         "Min Font Size" 16
+         FontProperties FontProperties "{546AF489DFD25402}" {
+         }
+         "Line Spacing" 30
+        }
+        RichTextWidgetClass "{698428622C529654}" : "{E256BCCAE8821432}UI/layouts/WidgetLibrary/RichTextWidgets/RichText_Body.layout" {
+         Name "brief2"
+         Slot LayoutSlot "{69842862B925EF25}" {
+          HorizontalAlign 3
+          Padding 0 20 0 0
+         }
+         Clipping Inherit
+         Text "Check your gear. Confirm your role. Stay with your element."
+         "Min Font Size" 16
+         FontProperties FontProperties "{546AF489DFD25402}" {
+         }
+         "Line Spacing" 30
+        }
+        RichTextWidgetClass "{698428622C529655}" : "{E256BCCAE8821432}UI/layouts/WidgetLibrary/RichTextWidgets/RichText_Body.layout" {
+         Name "brief3"
+         Slot LayoutSlot "{69842862B925EF36}" {
+          HorizontalAlign 3
+          Padding 0 20 0 0
+         }
+         Clipping Inherit
+         Text "Command expects every operator to communicate clearly, follow orders, and act with purpose. Lone wolves become liabilities. Squads win wars."
+         "Min Font Size" 16
+         FontProperties FontProperties "{546AF489DFD25402}" {
+         }
+         "Line Spacing" 30
+        }
+        RichTextWidgetClass "{698428622C52BF89}" : "{E256BCCAE8821432}UI/layouts/WidgetLibrary/RichTextWidgets/RichText_Body.layout" {
+         Name "brief4"
+         Slot LayoutSlot "{6982524B9E2BC9EF}" {
+          HorizontalAlign 3
+          Padding 0 20 0 0
+         }
+         Clipping Inherit
+         Text "Your mission begins now."
+         "Min Font Size" 16
+         FontProperties FontProperties "{546AF489DFD25402}" {
+          Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+         }
+         "Line Spacing" 30
+        }
+        RichTextWidgetClass "{698428622C525FF4}" : "{E256BCCAE8821432}UI/layouts/WidgetLibrary/RichTextWidgets/RichText_Body.layout" {
+         Name "brief5"
+         Slot LayoutSlot "{6982524B9E2BC9EF}" {
+          HorizontalAlign 3
+          Padding 0 20 0 0
+         }
+         Clipping Inherit
+         Text "Move with intent. Fight as one. Welcome to JTF 6-26."
+         "Min Font Size" 16
+         FontProperties FontProperties "{546AF489DFD25402}" {
+          Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+         }
+         "Line Spacing" 30
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  OverlayWidgetClass "{698428622C525FF7}" : "{A5D822A6CBEB8003}UI/layouts/Menus/Common/MenuBackground-NoScripts.layout" {
+   Name "m_wContentOverlay0"
+   Slot FrameWidgetSlot "{552C9A0A8526D2AD}" {
+   }
+   "Z Order" 10
+   "Is Visible" 0
+  }
+  ImageWidgetClass "{698428622C525FF6}" {
+   Name "m_wBlackOverlay0"
+   Slot FrameWidgetSlot "{5868D25099BC2439}" {
+    Anchor 0 0 1 1
+    PositionX 0
+    OffsetLeft 0
+    PositionY 0
+    OffsetTop 0
+    SizeX -1820
+    OffsetRight 0
+    SizeY -1050
+    OffsetBottom 0
+   }
+   "Z Order" 20
+   "Is Visible" 0
+   Color 0 0 0 1
+  }
+ }
+}

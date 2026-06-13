@@ -1,0 +1,44 @@
+FrameWidgetClass {
+ {
+  FrameWidgetClass "{54D8A1A6EA84F9B9}" {
+   Prefab "{54D8A1A6EA84F9B9}"
+   {
+    OverlayWidgetClass "{69840B4BE91DD8E8}" {
+     Name "Frame0"
+     Slot FrameWidgetSlot "{69840B4BE91DD806}" {
+      OffsetLeft 0
+      OffsetTop 0
+      OffsetRight -100
+      OffsetBottom -30
+      SizeToContent 1
+     }
+     {
+      ImageWidgetClass "{69840B4BA55E8121}" {
+       Name "Image1"
+       Slot OverlayWidgetSlot "{69840B4B201B0982}" {
+        HorizontalAlign 3
+        VerticalAlign 3
+       }
+       Color 0.2706 0.2706 0.2706 1
+       Texture "{9E42809AAFCFF179}UI/Textures/DeployMenu/deploymentBG.edds"
+       Size 1480 840
+      }
+     }
+    }
+    BlurWidgetClass "{00000000E99E7D4A}" {
+     Prefab "{00000000E99E7D4A}"
+     "Is Visible" 1
+    }
+    ImageWidgetClass "{00000000209D883B}" {
+     Prefab "{00000000209D883B}"
+     Slot FrameWidgetSlot "{5488B97C9D820763}" {
+     }
+     "Is Enabled" 0
+     Texture "{9E42809AAFCFF179}UI/Textures/DeployMenu/deploymentBG.edds"
+     Size 1024 576
+     Tiling None
+    }
+   }
+  }
+ }
+}
