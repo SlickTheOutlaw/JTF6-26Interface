@@ -1,0 +1,79 @@
+SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionManager_Base.et" {
+ ID "56B2B4776E6E4499"
+ Factions {
+  SCR_Faction "{56DEAC40D2DBC8B1}" {
+   m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" {
+    m_aSquadNames {
+     SCR_CallsignInfo "{55CCB792D10AD8F4}" {
+      m_sCallsign "RAZOR"
+     }
+     SCR_CallsignInfo "{55CCB792D13759D8}" {
+      m_sCallsign "HANGMAN"
+     }
+     SCR_CallsignInfo "{55CCB792D1218E95}" {
+      m_sCallsign "S.O.A.R"
+     }
+     SCR_CallsignInfo "{55CCB792D0C8B3CE}" {
+      m_sCallsign "HITMAN"
+     }
+     SCR_CallsignInfo "{699B4DC328A6B480}" {
+      m_sCallsign "NOMAD"
+     }
+     SCR_CallsignInfo "{699B4DC328D9F002}" {
+      m_sCallsign "ROOM SERVICE "
+     }
+     SCR_CallsignInfo "{699B4DC328277365}" {
+      m_sCallsign "COMMAND"
+     }
+    }
+    m_sCallsignGroupFormat "%3"
+   }
+   m_aPredefinedGroups {
+    SCR_GroupPreset "{699B41D642C494C8}" {
+     m_sGroupName "RAZOR"
+     m_sGroupFlagName "RANGERS"
+     m_iGroupSize 30
+     m_iRadioFrequency 59500
+    }
+    SCR_GroupPreset "{699B41D64D83A6A2}" {
+     m_sGroupName "HANGMAN"
+     m_sGroupFlagName "RRC"
+     m_iGroupSize 15
+     m_iRadioFrequency 49000
+    }
+    SCR_GroupPreset "{699B41D64C915514}" {
+     m_sGroupName "S.O.A.R"
+     m_sGroupFlagName "S.O.A.R"
+     m_iGroupSize 10
+     m_iRadioFrequency 69000
+    }
+    SCR_GroupPreset "{699B41D64FB3B1C3}" {
+     m_sGroupName "HITMAN"
+     m_sGroupFlagName "MARSOC"
+     m_iGroupSize 15
+     m_iRadioFrequency 33500
+    }
+    SCR_GroupPreset "{699B41D64F0D4D77}" {
+     m_sGroupName "NOMAD"
+     m_sGroupFlagName "20th"
+     m_iGroupSize 15
+     m_iRadioFrequency 52500
+    }
+    SCR_GroupPreset "{699B41D64E2BDC8E}" {
+     m_sGroupName "ROOM SERVICE"
+     m_sGroupFlagName "3rd"
+     m_iGroupSize 15
+     m_iRadioFrequency 52000
+    }
+    SCR_GroupPreset "{699B41D649E35E4E}" {
+     m_sGroupName "COMMAND"
+     m_iGroupSize 10
+     m_iRadioFrequency 48000
+    }
+   }
+   m_eDefaultGroupRoleForNewGroup NONE
+   m_bCreateOnlyPredefinedGroups 1
+   m_iFactionRadioFrequency 40000
+  }
+ }
+}
